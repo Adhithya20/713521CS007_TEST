@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin-top: 20px;
+    height: 200px;
+}
+
+
+.navbar {
+    background-color: #030000;
+    height: 20%;
+}
+.login{
+    text-align:center;
+    background-color: aqua;
+    width: 40%;
+    height: 2%;
+    margin: auto;
+    padding: 2%;
+    align-content: center;
+}
+
+
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #ccc;
+}
+
+
+.form-control {
+    margin-bottom: 10px;
+}
+.row{
+    height: 10px;
+}
+.div{height: 200px;}
+..btn{
+    margin: auto;
+}
+.footer {
+    background-color:#FFAAAA;
+    
+    padding: 2px 0;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 50px;
+    }
+}
+
